@@ -1,8 +1,0 @@
-C:\Users\pastkhuf\Desktop\csharp\taskI\IocExample\bin\Debug\IocExample.exe.config
-C:\Users\pastkhuf\Desktop\csharp\taskI\IocExample\bin\Debug\IocExample.exe
-C:\Users\pastkhuf\Desktop\csharp\taskI\IocExample\bin\Debug\IocExample.pdb
-C:\Users\pastkhuf\Desktop\csharp\taskI\IocExample\bin\Debug\Ninject.dll
-C:\Users\pastkhuf\Desktop\csharp\taskI\IocExample\bin\Debug\Ninject.xml
-C:\Users\pastkhuf\Desktop\csharp\taskI\IocExample\obj\Debug\IocExample.csprojResolveAssemblyReference.cache
-C:\Users\pastkhuf\Desktop\csharp\taskI\IocExample\obj\Debug\IocExample.exe
-C:\Users\pastkhuf\Desktop\csharp\taskI\IocExample\obj\Debug\IocExample.pdb
