@@ -5,17 +5,18 @@ namespace IocExample
 {
     public class ArgumentsBinder
     {
-        private readonly Dictionary<Type, Tuple<Type, Dictionary<string, object>>> dep;
-        private readonly Type _key;
-        public ArgumentsBinder(Dictionary<Type, Tuple<Type, Dictionary<string, object>>> dep, Type key)
+        private readonly Dictionary<Type, Tuple<Type, Dictionary<string, object>>> dependences;
+        private readonly Type bindingType;
+        public ArgumentsBinder(Dictionary<Type, Tuple<Type, Dictionary<string, object>>> dependences, 
+                                                                                Type bindingType)
         {
-            this.dep = dep;
-            this._key = key;
+            this.dependences = dependences;
+            this.bindingType = bindingType;
         }
 
         public ArgumentsBinder WithConstructorArgument(string name, object value)
         {
-            dep[_key].Item2[name] = value;
+            dependences[bindingType].Item2[name] = value;
             return this;
         }
     }
