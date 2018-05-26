@@ -49,7 +49,9 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Classes\Classes.cs" />
-    <Compile Include="DependencyResolver.cs" />
+    <Compile Include="DI-container\ArgumentsBinder.cs" />
+    <Compile Include="DI-container\ClassBinder.cs" />
+    <Compile Include="DI-container\DependencyResolver.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Utils.cs" />
